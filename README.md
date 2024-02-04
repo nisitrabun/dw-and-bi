@@ -5,14 +5,14 @@
 ### Step_01 Create Codespaces
 1. กดเลือกที่ Code
 2. ตรงหัวข้อ Codespaces กดไปที่เครื่องหมายบวก (create a codespace on main)
-![Alt text](<Screenshot 2567-02-04 at 10.40.48.png>)
+<img width="1304" alt="Screenshot 2567-02-04 at 10 40 48" src="https://github.com/nisitrabun/dw-and-bi/assets/139243286/96752d3f-490a-46dc-8524-39df750570b1"> 
 
 3. จะมีการสร้างพื้นที่เพื่อใช้สำหรับเขียน code โดยมีชื่อของ Codesspaces ต่างกัน
-![Alt text](<Screenshot 2567-02-04 at 10.55.26.png>)
+<img width="1432" alt="Screenshot 2567-02-04 at 10 55 26" src="https://github.com/nisitrabun/dw-and-bi/assets/139243286/db424272-e46b-4c79-a097-7c9d0e554beb">
 
 ### Step_02 Create Folder
 1. กดไปที่ New Folder สร้าง folder ใหม่ขึ้นมา 2 folder
-![Alt text](<Screenshot 2567-02-04 at 11.05.42.png>)
+<img width="421" alt="Screenshot 2567-02-04 at 11 05 42" src="https://github.com/nisitrabun/dw-and-bi/assets/139243286/8f0654da-516f-410a-987d-5b26cb6e75e2">
 
 2. Download Data source : https://github.com/zkan/swu-ds525/tree/main
 3. folder ที่ 1 ชื่อ "01-data-modeling-i"
@@ -25,8 +25,7 @@
         -  /github_events_01.json
 
 ### Step_03 Install Enviroment on Terminal
-
-![Alt text](<Screenshot 2567-02-04 at 11.19.35.png>)
+<img width="719" alt="Screenshot 2567-02-04 at 11 19 35" src="https://github.com/nisitrabun/dw-and-bi/assets/139243286/754083a0-e413-47f0-b0ef-cd5aee733685">
 
 1. เตรียม Web server **nginx** โดยใช้งานผ่าน Docker
 
@@ -47,22 +46,22 @@
 ### Step_04 Database
 1. ไปที่แถบ PORTS (1) 
 2. กดเลือกที่ Port 8080 เพื่อเปิด browser adminer ขึ้นมา
-![Alt text](<Screenshot 2567-02-04 at 11.27.32.png>) 
+<img width="1065" alt="Screenshot 2567-02-04 at 11 27 32" src="https://github.com/nisitrabun/dw-and-bi/assets/139243286/35e3d91c-e190-4684-9235-12214551b2dc">
 
 3. Log in เลือก system : PostgreSQL 
-![Alt text](<Screenshot 2567-02-04 at 11.33.19.png>)
+<img width="583" alt="Screenshot 2567-02-04 at 11 33 19" src="https://github.com/nisitrabun/dw-and-bi/assets/139243286/9c2c7e68-4a4e-44c7-9991-d1e188ca7557">
 
 ### Step_05
 1. รันด้วย create_tables.py และเขียน code ของ PostgresSQL
 
         python create_tables.py
-![Alt text](<Screenshot 2567-02-04 at 11.45.37.png>)
+<img width="791" alt="Screenshot 2567-02-04 at 11 45 37" src="https://github.com/nisitrabun/dw-and-bi/assets/139243286/52605656-25a4-496d-81db-9e197c83f57c">
 
 2. สร้างไฟล์สำหรับ etl เพื่อนำข้อมูลจาก json เข้าไปยัง postgres  ใช้ไฟล์  etl.py
 
         python etl.py 
-![Alt text](<Screenshot 2567-02-04 at 11.48.19.png>)
+<img width="594" alt="Screenshot 2567-02-04 at 11 48 19" src="https://github.com/nisitrabun/dw-and-bi/assets/139243286/3bbecf37-c043-40fb-9316-4d5ab93017a4">
 
 ### Remark
 - การเพิ่ม-ลด tables
-![Alt text](<Screenshot 2567-02-04 at 11.50.40.png>) 
+<img width="634" alt="Screenshot 2567-02-04 at 11 50 40" src="https://github.com/nisitrabun/dw-and-bi/assets/139243286/962f3006-b73d-49cd-86cd-1cc6c3c73bbf">
